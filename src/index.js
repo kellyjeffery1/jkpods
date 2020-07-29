@@ -7,5 +7,6 @@ import './assests/Navbar.scss';
 import './assests/Header.scss';
 import './assests/About.scss';
 import './assests/Pods.scss';
+import './assests/Footer.scss';
 
 ReactDOM.render(<App />, document.getElementById('root'));

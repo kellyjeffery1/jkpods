@@ -1,41 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
 
-.title-section{
-    justify-content: center;
-    margin-top: 50%;
-    margin-left: 10%;
-    font-family: 'Noto Sans JP', sans-serif;
+.title-section {
+	justify-content: center;
+	margin-top: 50%;
+	margin-left: 10%;
+	font-family: 'Noto Sans JP', sans-serif;
 }
 
-.pod-image{
-   position: relative;
-   margin-top: 30%;
-   height: 100%;
-    width: 200%;
-
+.pod-image {
+	position: relative;
+	margin-top: 34%;
+	height: 70%;
+	width: 214%;
 }
-.leaves{
-    border-radius: 5%;
+.leaves {
+	border-radius: 5%;
 }
-.header-title{
-    font-size: 6vw;
+.header-title {
+	font-size: 6vw;
 }
-.header-para{
-    color: white;
-    margin-top: 2%;
-    margin-left: 38%;
-    font-family: 'Noto Sans JP', sans-serif;
+.header-para {
+	color: white;
+	margin-top: 2%;
+	margin-left: 38%;
+	font-family: 'Noto Sans JP', sans-serif;
 }
-.title-button{
-    margin-top: 2%;
-    margin-left: 53%;
-    border-radius: 5px;
-    border-color: #72BDA3;
-    width: 15%;
-    color: white;
-    background-color: gray;
-    opacity: 0.5;
+.title-button {
+	margin-top: 2%;
+	margin-left: 53%;
+	border-radius: 5px;
+	border-color: white;
+	width: 15%;
+	color: white;
+	background-color: #72bda3;
 }
-.header{
-    position: relative;
+.title-button:hover {
+	background-color: white;
+	color: #72bda3;
+}
+.header {
+	position: relative;
 }
