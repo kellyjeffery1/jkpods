@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
+import SecondNavbar from './SecondNavbar';
 
 class Header extends Component {
 	render() {
 		return (
 			<div className="header">
+				<SecondNavbar />
 				<Container fluid>
 					<Row>
 						<Col sm={6}>
