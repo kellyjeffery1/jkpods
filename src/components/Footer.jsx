@@ -36,7 +36,46 @@ class Footer extends Component {
 						</Col>
 						<Col>
 							<div className="line-seperator-2" />
-							
+							<div className="SM-buttons">
+								<ul className="contact-ul">
+									<li className="contact-li">
+										<a target="blank" href="https://github.com/kellyjeffery1">
+											<span />
+											<span />
+											<span />
+											<span />
+											<span className="fa fa-github" />
+										</a>
+									</li>
+									<li className="contact-li">
+										<a target="blank" href="https://twitter.com/kellyjeffery_">
+											<span />
+											<span />
+											<span />
+											<span />
+											<span className="fa fa-twitter" />
+										</a>
+									</li>
+									<li className="contact-li">
+										<a target="blank" href="https://www.instagram.com/kellyjeffery1/?hl=en">
+											<span />
+											<span />
+											<span />
+											<span />
+											<span className="fa fa-instagram" />
+										</a>
+									</li>
+									<li className="contact-li">
+										<a target="blank" href="https://www.linkedin.com/in/kelly-jeffery/">
+											<span />
+											<span />
+											<span />
+											<span />
+											<span className="fa fa-linkedin" />
+										</a>
+									</li>
+								</ul>
+							</div>
 						</Col>
 					</Row>
 				</Container>
