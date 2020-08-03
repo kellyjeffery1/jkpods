@@ -7,16 +7,17 @@ class Footer extends Component {
 		return (
 			<footer className="footer-section">
 				<Container fluid>
-					<div className="footer-title-section">
-						<h1 className="footer-title" style={{ color: 'white' }}>
-							JK
-							<span className="full-stop" style={{ color: '#72BDA3' }}>
-								PODS
-							</span>
-						</h1>
-					</div>
 					<Row>
 						<Col sm={6}>
+							<div className="footer-title-section">
+								<h1 className="footer-title" style={{ color: 'white' }}>
+									JK
+									<span className="full-stop" style={{ color: '#72BDA3' }}>
+										PODS
+									</span>
+								</h1>
+								<div className="line-seperator" />
+							</div>
 							<div className="contact-information">
 								<div className="text-container-information">
 									<h5 className="location-title">LOCATION:</h5>
@@ -32,6 +33,10 @@ class Footer extends Component {
 									<p className="email-paragrapgh">arkjkjeffery@gmail.com</p>
 								</div>
 							</div>
+						</Col>
+						<Col>
+							<div className="line-seperator-2" />
+							
 						</Col>
 					</Row>
 				</Container>

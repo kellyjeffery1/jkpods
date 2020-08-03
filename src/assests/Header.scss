@@ -4,14 +4,16 @@
 	justify-content: center;
 	margin-top: 50%;
 	margin-left: 10%;
+	margin-bottom: 45%;
 	font-family: 'Noto Sans JP', sans-serif;
 }
 
 .pod-image {
-	position: relative;
-	margin-top: 34%;
-	height: 70%;
-	width: 214%;
+	 position: relative;
+	 margin-top: 34%;
+	 height: 70%;
+	 width: 90%;
+	
 }
 .leaves {
 	border-radius: 5%;
@@ -33,6 +35,7 @@
 	width: 15%;
 	color: white;
 	background-color: #72bda3;
+	opacity: 0.8;
 }
 .title-button:hover {
 	background-color: white;

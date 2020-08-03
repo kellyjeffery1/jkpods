@@ -1,7 +1,12 @@
-import React, { Component } from 'react';   
-class About extends Component {
-    render() { 
-        return (
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';  
+
+const About = () => {
+    useEffect(() => {
+		Aos.init({ duration: 3000})
+	})
+    return (
             <div className="about-section">
                 <div className="about-title-section">
                     <h1 className="about-header-title" style={{ color: 'white' }}>
@@ -9,7 +14,7 @@ class About extends Component {
 					     <span className="full-stop" style={{ color: '#72BDA3' }}>UT</span>
                     </h1>         
                 </div>
-                <div className="about-text-container">
+                <div className="about-text-container" data-aos="fade-up">
                     <p>Garden pods are the latest trend in home improvement.
                        Garden pods versatility makes them the perfect space-saving addition to any property. 
                        Home extensions,renovations or other methods of adding additional space are time-consuming and can interrupt your everyday life.
@@ -19,7 +24,6 @@ class About extends Component {
                 </div>
             </div>
           );
-    }
-}
- 
+
+};
 export default About;
