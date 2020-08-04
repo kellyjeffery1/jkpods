@@ -9,15 +9,13 @@
 }
 
 .pod-image {
-	 position: relative;
-	 margin-top: 34%;
-	 height: 70%;
-	 width: 90%;
-	
+	position: relative;
+	margin-top: 34%;
+	height: 70%;
+	width: 90%;
+	border-radius: 5px;
 }
-.leaves {
-	border-radius: 5%;
-}
+
 .header-title {
 	font-size: 6vw;
 }
@@ -31,6 +29,7 @@
 	margin-top: 2%;
 	margin-left: 53%;
 	border-radius: 5px;
+	padding: 5px;
 	border-color: white;
 	width: 15%;
 	color: white;
@@ -40,7 +39,28 @@
 .title-button:hover {
 	background-color: white;
 	color: #72bda3;
+	transition: all 0.5s;
+	opacity: 0.4;
+	text-decoration: none;
 }
 .header {
 	position: relative;
+}
+@media only screen and (max-width: 600px) {
+	.title-section {
+		margin-top: 90%;
+	}
+	.header-para {
+		margin-left: 15%;
+	}
+	.title-button {
+		margin-left: 15%;
+		width: 20%;
+	}
+	.pod-image {
+		position: relative;
+		margin-top: 0%;
+		width: 99%;
+		height: 100vw;
+	}
 }

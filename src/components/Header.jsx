@@ -32,6 +32,7 @@ const Header = () => {
 						<div className="pod-image" data-aos="fade-in">
 							<ReactPlayer
 								controls
+								samesite="None"
 								url="https://www.youtube.com/watch?v=5ZIisIvzOnE"
 								height="80%"
 								width="100%"

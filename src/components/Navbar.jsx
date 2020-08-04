@@ -22,7 +22,6 @@ class Navbar extends Component {
 								<li className="nav-links-item three">
 									<p className="nav-title">ABOUT</p>
 								</li>
-
 								<li className="nav-links-item four">
 									<p className="nav-title">CONTACT</p>
 								</li>

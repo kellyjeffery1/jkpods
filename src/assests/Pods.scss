@@ -69,3 +69,20 @@
 	font-size: 16px;
 	padding: 16px 32px;
 }
+@media only screen and (max-width: 600px) {
+	.pods-section {
+		margin-top: 210%;
+	}
+	.pod-card-image {
+		height: 16pc;
+		width: 18pc;
+		margin-left: 50px;
+	}
+	.pod-title {
+		margin-left: 18%;
+		margin-bottom: 10%;
+	}
+	.pod-card {
+		margin-bottom: 15%;
+	}
+}
