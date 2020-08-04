@@ -18,12 +18,14 @@ class Navbar extends Component {
 								<li className="nav-links-item one">
 									<p className="nav-title">HOME</p>
 								</li>
-
-								<li className="nav-links-item three">
+								<li className="nav-links-item two">
 									<p className="nav-title">ABOUT</p>
 								</li>
-								<li className="nav-links-item four">
+								<li className="nav-links-item three">
 									<p className="nav-title">CONTACT</p>
+								</li>
+								<li className="nav-links-item four">
+									<p className="nav-title">MORE</p>
 								</li>
 								<hr />
 							</ul>
