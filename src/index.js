@@ -8,5 +8,6 @@ import './assests/Header.scss';
 import './assests/About.scss';
 import './assests/Pods.scss';
 import './assests/Footer.scss';
+import './assests/MoreBanner.scss';
 
 ReactDOM.render(<App />, document.getElementById('root'));

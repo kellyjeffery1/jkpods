@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Container, Row, Col } from 'reactstrap';
+import { Link } from 'react-router-dom';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -30,8 +31,11 @@ const Pods = () => {
 							<div className="pod-card" data-aos="fade-up">
 								<img className="pod-card-image" alt="something" src="./images/IMG_2873.jpg" />
 								<div className="middle">
-									<button className="text-button">MORE</button>
+									<Link to="/More">
+										<button className="text-button">MORE</button>		
+									</Link>
 								</div>
+								
 								<div className="card-text-container">
 									<h4 className="luxury-title">LUXURY SUMMER</h4>
 								</div>
