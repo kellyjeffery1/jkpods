@@ -1,5 +1,6 @@
 import React from 'react';
 import PodInfoCard from './PodInfoCard';
+import PodInfoCardBottom from './PodInfoCardBottom';
 import { Container, Row, Col } from 'reactstrap';
 
 function Shop() {
@@ -43,7 +44,7 @@ function Shop() {
 				</Row>
 				<Row>
 					<Col sm={4}>
-						<PodInfoCard
+						<PodInfoCardBottom
 							contact={{
 								imageUrl: './images/IMG_2873.jpg',
 								information:
@@ -54,7 +55,7 @@ function Shop() {
 						/>
 					</Col>
 					<Col sm={4}>
-						<PodInfoCard
+						<PodInfoCardBottom
 							contact={{
 								imageUrl: './images/IMG_2873.jpg',
 								information:
@@ -65,7 +66,7 @@ function Shop() {
 						/>
 					</Col>
 					<Col sm={4}>
-						<PodInfoCard
+						<PodInfoCardBottom
 							contact={{
 								imageUrl: './images/IMG_2873.jpg',
 								information:
