@@ -2,8 +2,7 @@ import React from 'react';
 
 function PodInfoCard(props){
     return (
-        <div>
-            <h1 style={{ color: 'white' }}>card</h1>
+        <div className='card-section'>
             <div className='pod-info-card'>
                 <img src={props.contact.imageUrl} alt="" className='card-image' />
                 <div className='card-line-seperator'></div>

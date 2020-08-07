@@ -7,6 +7,9 @@
 }
 
 .pod-card-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	height: 25pc;
 	width: 22pc;
 	border-radius: 5px;
