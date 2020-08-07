@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import MoreBanner from './components/MoreBanner';
 import SecondNavbar from './components/SecondNavbar';
 import Shop from './components/Shop';
+import Footer from './components/Footer';
 
 class More extends Component {
 	render() {
@@ -10,6 +11,7 @@ class More extends Component {
 				<SecondNavbar/>
 				<MoreBanner />
 				<Shop />
+				<Footer/>
 			</div>
 		);
 	}
